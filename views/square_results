@@ -1,0 +1,19 @@
+<h1>Results of square calculation</h1>
+
+
+<%=params%>
+<dl>
+  <dt>
+    Number
+  </dt>
+  <dd>
+    <%params.fetch("users_number")%>
+  </dd>
+
+  <dt>
+    Square
+  </dt>
+  <dd>
+    <%params.fetch("users_number").to_f * %params.fetch("users_number").to_f%>
+  </dd>
+</dl>
